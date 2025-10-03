@@ -1,0 +1,21 @@
+<div class="card shadow-sm mb-3" style="width: 20rem;">
+    <!-- Card Header -->
+    <div class="card-header bg-primary text-white">
+      {{ product.name }}
+    </div>
+  
+    <!-- Card Body -->
+    <div class="card-body">
+      <p class="card-text mb-1">
+        <strong>Description:</strong> {{ product.description }}
+      </p>
+      <p class="card-text mb-1">
+        <strong>Category:</strong> {{ product.catagory }}
+      </p>
+    </div>
+  
+    <!-- Card Footer -->
+    <div class="card-footer text-end">
+      <span class="fw-bold text-success">{{ product.price | currency }}</span>
+    </div>
+  </div>
