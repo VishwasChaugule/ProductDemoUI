@@ -1,9 +1,9 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ProductService } from 'src/product.service';
-import { ProductComponent } from 'src/product/product.component';
-import { ProductlistComponent } from 'src/productlist/productlist.component';
+import { ProductService } from '../app/product.service';
+import { ProductComponent } from '../app/product/product.component';
+import { ProductlistComponent } from '../app/productlist/productlist.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
