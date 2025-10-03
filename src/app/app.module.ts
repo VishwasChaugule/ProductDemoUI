@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ProductService } from '../app/product.service';
+import { ProductService } from './product/product.service';
 import { ProductComponent } from '../app/product/product.component';
 import { ProductlistComponent } from '../app/productlist/productlist.component';
 
